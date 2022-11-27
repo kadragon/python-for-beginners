@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-for-beginners"
+version = "0.1.0"
+description = ""
+authors = ["kangdonguk <kangdongouk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_for_beginners"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
